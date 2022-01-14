@@ -33,7 +33,7 @@ overlay.addEventListener("click", overlayCloseModal);
 
 // 1.handling keyboard press
 document.addEventListener("keydown", function (e) {
-  if (e.key === "Bakcspace" && !modal.classList.contains("hidden")) {
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
     closeModal();
   }
 });
